@@ -1,0 +1,73 @@
+How to start git bash in a folder?
+right click; git bash
+
+How to start git in a folder?
+right click; git init
+or git init in bash
+
+How to check status?
+git status
+
+How to stage a file into tracking changes?
+git add <file> (wildcard works for multiple files)
+
+How to commit?
+git commit -m 'made som changes'
+
+How to view log?
+git log
+
+How to exit log or other terminal list?
+q
+
+Is there a way to skip password typing when using https:// on GitHub?
+git config --global credential.helper wincred
+
+How to add remote repository?
+git remote add origin https://github.com/myAccountName/myGitName.git
+
+How to push uppdates for the first time?
+git push -u origin master
+
+How to push uppdates after that?
+git push
+
+How to pull for the first time?
+git pull -u origin master
+
+How to pull after that?
+git pull
+
+Hot to look at what is different?
+git diff
+
+Hot to look at what is different only to our last commit?
+git diff HEAD
+
+Hot to look at what is now staged?
+git diff --staged
+
+Hot to unstage a file?
+git reset <file>
+
+How to changed back a file to last commit
+git checkout -- <file>
+
+How to add a branch?
+git branch <branchName>
+
+How to view branches?
+git branch
+
+How to switch branch?
+git checkout <branchName>
+
+How to remove files and stage changes?
+git rm <file> (wildcard works for multiple files)
+git commit -m 'deleted a file'
+
+How to merge a branch to the one that is currently checkedout?
+git merge <branchName>
+
+How to remove a branch?
+git branch -d <branchName>
