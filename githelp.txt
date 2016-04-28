@@ -71,3 +71,7 @@ git merge <branchName>
 
 How to remove a branch?
 git branch -d <branchName>
+
+How to revert back to last commit?
+git checkout <branchName>
+
