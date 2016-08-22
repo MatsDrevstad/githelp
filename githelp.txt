@@ -14,6 +14,9 @@ git add <file> (wildcard works for multiple files)
 How to commit?
 git commit -m 'made som changes'
 
+How to amend (append) changes to last commit?
+git commit -a --amend --no-edit
+
 How to view log?
 git log
 
