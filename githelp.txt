@@ -20,6 +20,10 @@ git log
 How to exit log or other terminal list?
 q
 
+How to leave edition mode Unix?
+Press ESC to make the then type
+:wq
+
 Is there a way to skip password typing when using https:// on GitHub?
 git config --global credential.helper wincred
 
