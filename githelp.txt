@@ -40,7 +40,7 @@ How to push uppdates after that?
 git push
 
 How to pull for the first time?
-git pull -u origin master
+git pull origin master
 
 How to pull after that?
 git pull
