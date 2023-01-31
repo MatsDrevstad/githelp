@@ -82,3 +82,8 @@ git branch -d <branchName>
 How to revert back to last commit?
 git checkout <branchName>
 
+How to compare local an remote?
+git fetch (command to fetch and update the remote branches.)
+git branch -a (command to display all remote and local branches)
+git diff <local-branch> <remote-branch> (compare and view the difference between them)
+Then study branches prior to any git pull/push that actaully make changes
